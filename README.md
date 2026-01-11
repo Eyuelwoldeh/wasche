@@ -73,13 +73,13 @@ python server.py
 
 ## Current Status
 
-✅ Firmware for single-node vibration detection  
-✅ ADXL345 driver with I2C communication  
-✅ Zigbee mesh networking (coordinator + end devices)  
-✅ Python backend API  
-✅ PostgreSQL database schema  
-🚧 Web dashboard (coming soon)  
-🚧 Mobile app (in planning)  
+ Firmware for single-node vibration detection  - done
+ ADXL345 driver with I2C communication  - done
+ Zigbee mesh networking (coordinator + end devices)  - done
+ Python backend API  - in progress
+ PostgreSQL database schema  - in progress
+ Web dashboard (coming soon)  
+ Mobile app (in planning)  
 
 ## Features
 
@@ -104,12 +104,7 @@ I implemented a tree-based mesh where each node can route messages. The coordina
 
 ## Why I Built This
 
-Honestly, I got tired of walking to the basement only to find all washers taken. Plus I wanted to learn embedded systems and Zigbee networking. This project forced me to deal with:
-- Low-level C programming for microcontrollers
-- I2C protocol and sensor interfacing
-- Wireless mesh networking
-- Real-time data processing
-- Full-stack integration
+I just got tired of walking to the basement only to find all washers taken. I also kept hearing the same thing from the rest of my peers. Plus I wanted to learn embedded systems and Zigbee networking.
 
 ## License
 
@@ -118,5 +113,3 @@ MIT - do whatever you want with it
 ## Contact
 
 Eyuel Woldehanna - woldeh1@stolaf.edu
-
-Questions? Found a bug? Hit me up!
