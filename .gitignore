@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Firmware build artifacts
+firmware/*.o
+firmware/*.elf
+firmware/*.hex
+firmware/*.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config with sensitive data
+backend/.env
+config/production.yaml
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Node modules (if we add a frontend later)
+node_modules/
+
+# Temporary files
+tmp/
+temp/
