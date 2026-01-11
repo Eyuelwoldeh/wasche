@@ -1,4 +1,4 @@
-# Wasche IoT Laundry System 🧺
+# Wasche IoT Laundry System
 
 > Because waiting in the laundry room to check if the washer's done is so 2010
 
